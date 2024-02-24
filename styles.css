@@ -140,6 +140,71 @@ section img#mountains_front {
     color: #fff;
 }
  */
+@media (max-width: 450px) {
+  header {
+      padding: 15px 20px;
+  }
+
+  header .logo {
+      font-size: 1.2em;
+  }
+
+  header ul {
+      margin-right: 5px;
+  }
+
+  header ul li {
+      margin-left: 10px;
+  }
+
+  .list-items {
+      padding: 4px 8px;
+  }
+
+  section {
+      padding: 50px 10px;
+  }
+
+  section::before {
+      height: 30px;
+  }
+
+  #text {
+      right: -30px;
+      font-size: 10vw;
+  }
+
+  #btn {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      transform: translateY(50px);
+  }
+
+  .sec {
+      padding: 30px;
+  }
+
+  .sec h2 {
+      font-size: 1.5em;
+  }
+
+  .footer__container {
+      margin-top: -4em;
+  }
+
+  .footer__container h4 {
+      font-size: 2rem;
+  }
+
+  .footer__container h1 {
+      font-size: 1rem;
+  }
+
+  .footer__container p {
+      font-size: 0.7rem;
+  }
+}
 
 
 /*----slide text-----*/
