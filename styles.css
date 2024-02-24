@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
     
 }
-#b {
+body {
     min-height: 100vh;
     background: linear-gradient(#8648ea, #7595de);
     overflow-x: hidden;
@@ -140,6 +140,143 @@ section img#mountains_front {
     color: #fff;
 }
  */
+@media (max-width: 280px) {
+  header {
+      padding: 10px 15px;
+  }
+
+  header .logo {
+      font-size: 1em;
+  }
+
+  header ul {
+      margin-right: 3px;
+  }
+
+  header ul li {
+      margin-left: 8px;
+  }
+
+  .list-items {
+      padding: 3px 6px;
+  }
+
+  section {
+      padding: 40px 5px;
+  }
+
+  section::before {
+      height: 20px;
+  }
+
+  section img#moon,
+  section img#mountains_front {
+      width: 120%;
+      left: -10%;
+  }
+
+  #text {
+      right: -20px;
+      font-size: 18vw;
+  }
+
+  #btn {
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.7em;
+      transform: translateY(40px);
+  }
+
+  .sec {
+      padding: 20px;
+  }
+
+  .sec h2 {
+      font-size: 1.2em;
+  }
+
+  .footer__container {
+      margin-top: -3em;
+  }
+
+  .footer__container h4 {
+      font-size: 1.8rem;
+  }
+
+  .footer__container h1 {
+      font-size: 0.9rem;
+  }
+
+  .footer__container p {
+      font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 350px) {
+  header {
+      padding: 10px 15px;
+  }
+
+  header .logo {
+      font-size: 1em;
+  }
+
+  header ul {
+      margin-right: 3px;
+  }
+
+  header ul li {
+      margin-left: 8px;
+  }
+
+  .list-items {
+      padding: 3px 6px;
+  }
+
+  section {
+      padding: 40px 5px;
+  }
+
+  section::before {
+      height: 20px;
+  }
+
+  #text {
+      right: -20px;
+      font-size: 18vw;
+  }
+
+  #btn {
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.7em;
+      transform: translateY(40px);
+  }
+
+  .sec {
+      padding: 20px;
+  }
+
+  .sec h2 {
+      font-size: 1.2em;
+  }
+
+  .footer__container {
+      margin-top: -3em;
+  }
+
+  .footer__container h4 {
+      font-size: 1.8rem;
+  }
+
+  .footer__container h1 {
+      font-size: 0.9rem;
+  }
+
+  .footer__container p {
+      font-size: 0.6rem;
+  }
+}
 @media (max-width: 450px) {
   header {
       padding: 15px 20px;
@@ -171,7 +308,7 @@ section img#mountains_front {
 
   #text {
       right: -30px;
-      font-size: 10vw;
+      font-size: 24vw;
   }
 
   #btn {
@@ -712,9 +849,24 @@ main > div > a:hover {
     font-weight: 200;
     color:#fff;
   }
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__social-icon {
+    font-size: 24px;
+    color: #fff; /* Change color as needed */
+    margin: 0 10px; /* Adjust spacing between icons */
+}
+
   
   
-  .footer__socials {
+  /* .footer__socials {
     margin-bottom: 2rem;
     display: flex;
     align-items: center;
@@ -731,7 +883,7 @@ main > div > a:hover {
   
   .footer__socials span a:hover {
     color: var(--secondary-color);
-  }
+  } */
   
   .footer__container p {
     max-width: 600px;
